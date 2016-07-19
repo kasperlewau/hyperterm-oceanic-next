@@ -25,5 +25,6 @@ exports.decorateConfig = config => Object.assign(config, {
   foregroundColor,
   backgroundColor,
   cursorColor,
+  borderColor,
   colors
 });
