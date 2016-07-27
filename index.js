@@ -20,11 +20,25 @@ const colors = [
   "#5fb3b3",
   foregroundColor
 ];
+const css = `
+  .tab_tab {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .tab_active {
+    background-color: transparent;
+  }
+
+  .tab_active:before {
+    border: none;
+  }
+`;
 
 exports.decorateConfig = config => Object.assign(config, {
   foregroundColor,
   backgroundColor,
   cursorColor,
   borderColor,
-  colors
+  colors,
+  css
 });
