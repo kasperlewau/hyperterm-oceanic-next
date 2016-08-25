@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-oceanic-next",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "oceanic next theme for hyperterm",
   "main": "index.js",
   "repository": "https://github.com/kasperlewau/hyperterm-oceanic-next",
