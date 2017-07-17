@@ -34,11 +34,14 @@ const css = `
   }
 `;
 
-exports.decorateConfig = config => Object.assign(config, {
+exports.decorateConfig = config => Object.assign({}, config, {
   foregroundColor,
   backgroundColor,
   cursorColor,
   borderColor,
   colors,
-  css
+  css: `
+    ${config.css || ''}
+    ${css}
+  `
 });
